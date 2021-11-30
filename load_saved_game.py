@@ -1,7 +1,7 @@
 import os.path
 
 # Function to load saved game
-# Currently loads the game from the filename, "SimpCityBoard.csv"
+# Takes in the file name as input e.g. "SimpCityBoard.csv"
 # Returns a dictionary, that has the turn number, and the game board
 # i.e.
 # {
@@ -11,8 +11,7 @@ import os.path
 #                     ['?', '?', 'BCH', '?'],
 #                     ['?', '?', '?', '?']]
 # }
-def load_saved_game():
-    filename = "SimpCityBoard.csv"
+def load_saved_game(filename):
     turn_number_saved_game_dict = {
         "turn_num": None,
         "saved_game": None
