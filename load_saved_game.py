@@ -1,7 +1,7 @@
-import os.path
+import os
 
 # Function to load saved game
-# Takes in the file name as input e.g. "SimpCityBoard.csv"
+# Currently loads the game from the filename, "SimpCityBoard.csv"
 # Returns a dictionary, that has the turn number, and the game board
 # i.e.
 # {
