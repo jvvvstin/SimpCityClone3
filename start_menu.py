@@ -23,5 +23,3 @@ def start_menu():
         else:
             print("Invalid option! Please try again!\n")
     return
-
-start_menu()
