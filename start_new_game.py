@@ -8,4 +8,4 @@ def start_new_game():
              ["?","?","?","?"]]
     turn_num = 1
     #display_board(turn_num, board)
-    return
+    return board, turn_num
