@@ -23,13 +23,13 @@ def play_menu(buildings_list, building_1, building_2, board):
         if option == "1" or option == "2":
             print("Option 1/2 selected") #placeholder
 
-                # checks which building user has selected to build
-                if option == "1":
-                    print("build building 1") #placeholder
-                    #place_building(building_1, location, board)
-                else:
-                    print("build building 2") #placeholder
-                    #place_building(building_2, location, board)
+            # checks which building user has selected to build
+            if option == "1":
+                print("build building 1") #placeholder
+                #place_building(building_1, location, board)
+            else:
+                print("build building 2") #placeholder
+                #place_building(building_2, location, board)
                     
         elif option == "3":
             print()
