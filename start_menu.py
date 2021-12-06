@@ -21,5 +21,5 @@ def start_menu(i):
                 print("Exiting Simp City...")
                 break
         else:
-            print("Invalid option! Please try again!\n")
+            print("Invalid option! Please try again!")
     return
