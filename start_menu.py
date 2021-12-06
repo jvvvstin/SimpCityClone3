@@ -1,9 +1,9 @@
 # display start menu function
-def start_menu():
+def start_menu(i):
     # stores the valid options that users can enter
     menu_options = ["0", "1", "2"]
-    while (True):
-        
+    while (i!=0):
+        i -= 1
         print("Welcome, mayor of Simp City!")
         print("----------------------------")
         print("1. Start new game")
