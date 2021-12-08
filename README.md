@@ -16,3 +16,5 @@ scores 1 point for each adjacent house (HSE) or shop (SHP), and 2 points for eac
 adjacent beach (BCH).
 • Shop (SHP): Scores 1 point per different type of building adjacent to it.
 • Highway (HWY): Scores 1 point per connected highway (HWY) in the same row.
+
+test
