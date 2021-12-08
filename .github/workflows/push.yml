@@ -3,7 +3,8 @@ name: Python Push
 # Controls when the workflow will run
 on:
   push:
-    branches: [ main, test ]
+    branches:
+      - '*'
     
 jobs:
   build:
