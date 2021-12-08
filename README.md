@@ -18,3 +18,4 @@ adjacent beach (BCH).
 • Highway (HWY): Scores 1 point per connected highway (HWY) in the same row.
 
 test
+test2
