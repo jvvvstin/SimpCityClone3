@@ -129,6 +129,7 @@ jobs:
         token: ${{ secrets.TELEGRAM_TOKEN }}
         message: |
           ${{ github.actor }} created release ${{ env.RELEASE_VERSION }}
+          Release Info: ${{ github.event.release.body }}
           
           Repository: ${{ github.repository }}
           
