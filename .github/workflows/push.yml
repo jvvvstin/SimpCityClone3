@@ -4,7 +4,8 @@ name: Python Push
 on:
   push:
     branches:
-      - '*'
+      - main
+      - jamz903/SimpCityClone3/test
     
 jobs:
   build:
